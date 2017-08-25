@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>@Triwith</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="index.css" type="text/css">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> About Me</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-signal"></span> Experience</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-education"></span> Achivement</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-folder-close"></span> My Work</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-earphone"></span> Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <br>
+    <center><img class="img-circle" src="mypic.jpg" style="width:280px;height:270px;"></center>
+    <br>
+    <center id="nameInNav">Triwith Mutitakul</center><br>
+    <a href="#">Personal Information</a>
+    <a href="#">Experience</a>
+    <a href="#">Achivement</a>
+    <a href="#">My Work</a>
+    <a href="#">Contact</a>
+  </div>
+
+  <!-- Use any element to open the sidenav -->
+  <span onclick="openNav()">&#9776;open</span>
+
+  <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+  <div id="main">
+
+  </div>
+  <script src="index.js"></script>
+</body>
+
+</html>
