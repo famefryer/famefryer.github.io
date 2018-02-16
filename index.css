@@ -19,11 +19,22 @@
   font-family: "Courier";
 
 }
-.leftFont, p {
+
+.headlineProject{
+  font-size: 250%;
+  color: black;
+  font-family: "Courier";
+
+}
+.leftFont, .pNormal {
   font-size: 200%;
   color : yellow;
 }
 
+.pProject {
+  font-size: 200%;
+  color : black;
+}
 #myPicture {
   border: 5px dashed yellow;
   margin-top: 5%;
@@ -31,17 +42,18 @@
 
 }
 
-#aboutMe {
+#aboutMe,#Skill,#project{
   margin-top: 5%;
   margin-left: 2%;
 }
-#Skill{
-  margin-top: 22%;
-  margin-left: 2%;
-}
-.list-group {
+
+#project-enigma ,#project-recursion,#project-store{
   background-color: yellow;
+  margin-top: 4%;
+  margin-left: 6%;
+  margin-bottom: 5%;
 }
+
 
 body {
   background-color: black;
