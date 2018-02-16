@@ -31,11 +31,14 @@
 
 }
 
-#aboutMe ,#Skill{
+#aboutMe {
   margin-top: 5%;
   margin-left: 2%;
 }
-
+#Skill{
+  margin-top: 22%;
+  margin-left: 2%;
+}
 .list-group {
   background-color: yellow;
 }
