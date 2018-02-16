@@ -6,6 +6,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <link rel="stylesheet" href="index.css" type="text/css">
@@ -13,37 +14,35 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-inverse">
-    <div class="container-fluid">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-user"></span> About Me</a></li>
-        <li><a href="#"><span class="glyphicon glyphicon-signal"></span> Experience</a></li>
-        <li><a href="#"><span class="glyphicon glyphicon-education"></span> Achivement</a></li>
-        <li><a href="#"><span class="glyphicon glyphicon-folder-close"></span> My Work</a></li>
-        <li><a href="#"><span class="glyphicon glyphicon-earphone"></span> Contact</a></li>
-      </ul>
+  <div class="col-sm-5" id = "myPicture">
+    <br>
+    <center><img class="img-circle" src="MyPic.jpg" style="width:60%;height:60%;"></center><br>
+    <center class="headline">Triwith Mutitakul(Fame)<br>Software Engineer<br>
+      <i class="fa fa-facebook-square" style="font-size:48px;color:yellow"></i> @Triwith Muthitakul<br>
+      <i class="fa fa-github" style="font-size:48px;color:yellow"></i> @famefryer<br>triwith.m@ku.th</center><br><br>
+  </div>
+  <div class="col-sm-6" id = "aboutMe">
+    <div>
+      <center class="headline">About me<br></center><br>
+      <p>&nbsp&nbsp&nbsp Hello My name is Triwith Mutitakul. You should call me fame. I am a sophomore studying at faculty of Software and Knowledge Engineering, Kasetsart University.</p>
+      <p>&nbsp&nbsp&nbsp I want to face a new problem and love to find the solution of it. :)</p>
+      <p>Favourite : Dog , LightBlue , Manga , One piece, Novels , Movie , Football , Baseball , Shabu , Milk</p>
     </div>
-  </nav>
-  <div id="mySidenav" class="sidenav">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <br>
-    <center><img class="img-circle" src="mypic.jpg" style="width:280px;height:270px;"></center>
-    <br>
-    <center id="nameInNav">Triwith Mutitakul</center><br>
-    <a href="#">Personal Information</a>
-    <a href="#">Experience</a>
-    <a href="#">Achivement</a>
-    <a href="#">My Work</a>
-    <a href="#">Contact</a>
+ <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 40%"></div>
+  <div id = "Skill">
+      <center class="headline">Skills<br></center><br>
+      <center>
+      <p>JAVA | KOTLIN &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp(70%)</p>
+      <p>C | C++ &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp(65%)</p>
+      <p>PHP | HTML | CSS &nbsp&nbsp&nbsp(55%)</p>
+      <p>JAVASCRIPT &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp(50%)</p>
+      <p>SQL &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp(50%)</p>
+      <p>PYTHON &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp(40%)</p>
+    </center>
+    </div>
   </div>
 
-  <!-- Use any element to open the sidenav -->
-  <span onclick="openNav()">&#9776;open</span>
 
-  <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
-  <div id="main">
-
-  </div>
   <script src="index.js"></script>
 </body>
 
